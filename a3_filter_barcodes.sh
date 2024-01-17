@@ -4,7 +4,7 @@
 #$ -l h_rt=8:0:0
 #$ -cwd
 #$ -t 1-2
-#$ -o job_output/
+#$ -o results/filter_barcodes_2/summary_filter.txt
 #$ -e job_errors/
 
 

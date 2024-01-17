@@ -1,5 +1,8 @@
-This is the analysis to check the diversity of the SPLINTR barcode libraries. 
-I first analysed the sequenced BFP library. 
+This is the analysis to check the diversity of the SPLINTR barcode libraries. Analysis will tell us:
+How many barcodes are present
+What the frequency distribution
+whether PCR technical replicates are good
+will give us a fasta file to use as a reference for barcoding experiments using this library
 
 Following original paper's github: https://github.com/DaneVass/SPLINTR_preprocessing/tree/main
 
