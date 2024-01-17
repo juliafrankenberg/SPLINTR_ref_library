@@ -3,6 +3,8 @@ I first analysed the sequenced BFP library.
 
 Following original paper's github: https://github.com/DaneVass/SPLINTR_preprocessing/tree/main
 
+Important: the sequencing was PE150 so we have both R1 and R2 here. So we could either merge the reads (but not sure if possible because fragments are ~320bp - bigger than twice the size of the reads, which is 150bp (??)). So can run the analyis on the forward reads, but could also reverse complement and run on the reverse reads??
+
 # Get and inspect data
 
 Download data
@@ -83,5 +85,8 @@ Check output (job_output) to see how many reads passed filtering and inspect new
 
 To cluster barcodes according to Edit distance. More info: https://github.com/gui11aume/starcode
 
+I had to install starcode on the cluster. # TO-D0 get starcode running as a module file
+
     qsub a4_starcode.sh
-    
+
+# Run further analysis on R

@@ -148,10 +148,11 @@ def filter_and_trim_reads(fastq_generator, upstream_constant, downstream_constan
                 total_count += 1
 
             # take only complete reads with correct start and end constant regions
-                if str(upstream_constant) in str(record.seq): # TO-DO implement fuzzy matching here. also add in downconstant matching
+                 # take only complete reads with correct start and end constant regions
+                if str(upstream_constant) in str(record.seq) and str(downstream_constant) in str(record.seq): # TO-DO implement fuzzy matching here. also add in downconstant matching
                     read = str(record.seq)
                     start = read.index(str(upstream_constant)) + len(upstream_constant)
-                    end = len(read)
+                    end = read.rindex(str(downstream_constant)) + len(downstream_constant)
                     trimmed_read = record[start:end]
                     
                     # take as much of the barcode portion as possible i.e. up to 60bp for SPLINTR
