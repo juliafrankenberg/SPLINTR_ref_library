@@ -7,7 +7,7 @@
 #$ -e job_errors/
 
 # Change to the results/fastqc/ directory
-cd results/fastqc/
+cd results/fastqc/raw_data
 
 # Loop through each ZIP file and extract contents
 for filename in *.zip

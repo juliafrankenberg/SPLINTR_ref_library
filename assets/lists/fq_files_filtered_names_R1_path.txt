@@ -1,2 +1,0 @@
-results/filter_barcodes/B_EKDL230054231-1A_22HFKNLT3_L8_1_filtered.fq.gz
-results/filter_barcodes/A_EKDL230054231-1A_22HFKNLT3_L8_1_filtered.fq.gz

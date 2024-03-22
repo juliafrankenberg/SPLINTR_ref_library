@@ -14,8 +14,8 @@ module load starcode
 
 #### RUN Parameters: ####
 FQ_LIST="assets/lists/merged_fq_names.txt"
-INFILE=results/filter_barcodes_merged/$(sed -n "${SGE_TASK_ID}p" "$FQ_LIST")
-OUTDIR="results/starcode_merged" 
+INFILE=results/filter_barcodes/$(sed -n "${SGE_TASK_ID}p" "$FQ_LIST")
+OUTDIR="results/starcode" 
 
 # setup output directory if it does not already exist
 if [ ! -d $OUTDIR ]; then

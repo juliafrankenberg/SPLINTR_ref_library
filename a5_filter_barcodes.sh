@@ -9,7 +9,7 @@
 
 
 # place full path to desired output directory here
-OUTDIR="results/filter_barcodes_merged" 
+OUTDIR="results/filter_barcodes" 
 
 # setup output directory if it does not already exist
 if [ ! -d $OUTDIR ]; then
