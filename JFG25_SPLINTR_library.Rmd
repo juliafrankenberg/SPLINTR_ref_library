@@ -48,8 +48,8 @@ dir.create(plot.dir, showWarnings = F, recursive = T)
 dir.create(results.dir, showWarnings = F, recursive = T)
 
 # samples
-starcode.1 <- "data/A_EKDL230054231-1A_22HFKNLT3_L8_1_filtered_starcode_auto.txt"
-starcode.2 <- "data/B_EKDL230054231-1A_22HFKNLT3_L8_1_filtered_starcode_auto.txt"
+starcode.1 <- "results/starcode_merged/A_EKDL230054231-1A_22HFKNLT3_L8_merged_starcode_auto.txt"
+starcode.2 <- "results/starcode_merged/B_EKDL230054231-1A_22HFKNLT3_L8_merged_starcode_auto.txt"
 
 starcode.1 <- fread(file = starcode.1)
 starcode.2 <- fread(file = starcode.2)
