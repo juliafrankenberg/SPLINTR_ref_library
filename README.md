@@ -6,7 +6,6 @@ will give us a fasta file to use as a reference for barcoding experiments using 
 
 Following original paper's github: https://github.com/DaneVass/SPLINTR_preprocessing/tree/main
 
-Important: the sequencing was PE150 so we have both R1 and R2 here. So we could either merge the reads (but not sure if possible because fragments are ~320bp - bigger than twice the size of the reads, which is 150bp (??)). So can run the analyis on the forward reads, but could also reverse complement and run on the reverse reads??
 
 # Get and inspect data
 
