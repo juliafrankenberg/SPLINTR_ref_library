@@ -7,6 +7,9 @@ will give us a fasta file to use as a reference for barcoding experiments using 
 Following original paper's github: https://github.com/DaneVass/SPLINTR_preprocessing/tree/main
 
 
+NOTE: in all scripts check file/lists inputs/outputs, these may need to be changed or created, and also change number of parallel tasks according to number of samples being processed
+
+
 # Get and inspect data
 
 Download data
